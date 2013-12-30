@@ -1016,41 +1016,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 		//intCmdIndex = CMD_STOP_SEND;
 	}
 	
-	/**
-     * Sends a message.
-     * @param message  A string of text to send.
-     * For commands that use characters, this function can be used
-     * to send command to BT scale
-     * Commands that use characters (Strings):
-     *  Read Weight 'g'
-     *  Stop Reading Weight 'p'
-     *  Read Scale Name "rn"
-     *  User Calibration "uc"
-     *  Scale Turn Off 'e'
-     */
-	/*
-    private void sendMessage(String message) {
-    	if(D) Log.d(TAG, "+++sendMessage(String)+++");
-    	System.out.println("+++sendMessage(String)+++");
-        // Check that we're actually connected before trying anything
-        if (mBluetoothService.getState() != BluetoothScaleService.STATE_CONNECTED) {
-            Toast.makeText(this, "Scale not connected -  command not sent", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        
-        // Check that there's actually something to send
-        if (message.length() > 0) {
-        	message += "\n";
-            // Get the message bytes and tell the BluetoothService to write
-            byte[] send = message.getBytes();
-            mBluetoothService.write(send);
-
-            // Reset out string buffer to zero and clear the edit text field
-            mOutStringBuffer.setLength(0);
-            tvScaleCommand.setText(mOutStringBuffer);
-        }
-    }
-    */
+	
 	
 	
     
