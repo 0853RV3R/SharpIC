@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScaleAppTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string-array name="venue_array" >
+        <item>C-Lounge</item>
+        <item>Baby Face</item>
+        <item>Bull and Bear</item>
+        <item>Buonanotte</item>
+        <item>Liberty Grand</item>
+        <item>Sky Bar</item>
+        
+        </string-array>
+    <string-array name="buonanotte_rooms">
+        <item>North Bar</item>
+        <item>North Storage Room</item>
+        <item>Back Storage Room</item>
+        <item>Kitchen</item>
+    </string-array>
+    <string-array name="c_lounge_rooms">
+        <item>North Bar</item>
+        <item>North Storage Room</item>
+        <item>Back Storage Room</item>
+        <item>Kitchen</item>
+    </string-array>
+    <string-array name="baby_face_rooms">
+        <item>North Bar</item>
+        <item>North Storage Room</item>
+        <item>Back Storage Room</item>
+        <item>Kitchen</item>
+    </string-array>
+    <string-array name="bull_and_bear_rooms">
+        <item>North Bar</item>
+        <item>North Storage Room</item>
+        <item>Back Storage Room</item>
+        <item>Kitchen</item>
+    </string-array>
+    <string-array name="liberty_grand_rooms">
+        <item>North Bar</item>
+        <item>North Storage Room</item>
+        <item>Back Storage Room</item>
+        <item>Kitchen</item>
+    </string-array>
+    <string-array name="sky_bar_rooms">
+        <item>North Bar</item>
+        <item>North Storage Room</item>
+        <item>Back Storage Room</item>
+        <item>Kitchen</item>
+    </string-array>
+
+</resources>

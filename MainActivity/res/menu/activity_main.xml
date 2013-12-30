@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <group 
+        android:id="@+id/scale_group"
+        android:checkableBehavior="single">
+        <item android:id="@+id/menu_grams"
+            	android:checked="true"
+            	android:title="Set Unit to Gram"/>
+        <item android:id="@+id/menu_lboz"
+            	android:title="Set Unit to LB/OZ"/>
+  
+    </group>
+    
+    
+    
+    <item
+        android:id="@+id/menu_scale_connect"
+        
+        android:title="Connect Scale"/>
+    <item
+        android:id="@+id/menu_scale_disconnect"
+        
+        android:title="Disconnect Scale"/>
+    
+    <item
+        android:id="@+id/menu_scanner_connect"
+        
+        android:title="Connect Scanner"/>
+    <item
+        android:id="@+id/menu_scanner_disconnect"
+        
+        android:title="Disconnect Scanner"/>
+    <item
+        android:id="@+id/menu_auto_upload"
+        
+        android:title="Auto-Upload Entries"/>
+
+</menu>

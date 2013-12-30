@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:contentDescription="Drink Image"
+        android:id="@+id/imgDrink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_crop"
+        android:layout_alignParentLeft ="true"/>
+	
+    <TextView
+        android:id="@+id/tvScanInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" 
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Delete Button or Uploaded Checkmark Image"
+        android:src="@android:drawable/ic_delete" 
+        android:layout_alignParentRight ="true"/> 
+		
+</RelativeLayout>

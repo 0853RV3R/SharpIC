@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/black">
+    <LinearLayout 
+        android:paddingLeft="5dp"
+    	android:layout_width="0dp"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_weight="5" >
+	
+    	<TextView
+    	    android:id="@+id/tvScanInfo1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="pooop"
+    	    android:textColor="@android:color/white"
+    	    android:textSize="24sp" />
+	
+		<TextView
+        	android:id="@+id/tvScanInfo2"
+        	android:layout_width="match_parent"
+        	android:layout_height="25dp"
+        	android:text="peeee" 
+        	android:textSize="18sp"
+        	android:textColor="#32cd32"
+        	/>
+    
+    </LinearLayout>
+    
+    <ImageButton
+        android:id="@+id/imgBtnDelete"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:contentDescription="Delete Button"
+        android:src="@android:drawable/ic_delete" 
+        android:gravity ="right"/> 
+    
+    <ImageView
+        android:id="@+id/imgUploadCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Uploaded Checkmark Image" 
+        android:gravity ="right"
+        android:src="@android:drawable/checkbox_on_background"	
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:paddingRight="22dp"/>	
+</LinearLayout>
